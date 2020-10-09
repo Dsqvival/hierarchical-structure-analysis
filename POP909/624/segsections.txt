@@ -1,0 +1,2 @@
+i12A13A13X9B16X9B16X7
+cost 93.80 match_score 3.30

@@ -1,0 +1,2 @@
+A4X4A4B4C10x3A4B4C10x7C10o7
+cost 62.70 match_score 6.91

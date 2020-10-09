@@ -1,0 +1,2 @@
+i10A8B8C12b4x1b4A8B8C12o3
+cost 68.80 match_score 5.05

@@ -1,0 +1,2 @@
+i8A14x3A14x3A14x3A14o1
+cost 50.60 match_score 3.96

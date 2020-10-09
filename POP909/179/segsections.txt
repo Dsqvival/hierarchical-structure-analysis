@@ -1,0 +1,2 @@
+i3A16A16x4A16A16A16X3
+cost 61.70 match_score 4.21

@@ -1,0 +1,2 @@
+i4A16X1A16X19
+cost 57.00 match_score 0.92

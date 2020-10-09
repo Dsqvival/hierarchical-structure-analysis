@@ -1,0 +1,2 @@
+A4x8B8C8D14x12B8C8D14x16C14A4
+cost 92.70 match_score 9.86

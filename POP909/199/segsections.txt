@@ -1,0 +1,2 @@
+A16A16X3
+cost 30.00 match_score 0.95

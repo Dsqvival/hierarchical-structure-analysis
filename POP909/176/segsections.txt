@@ -1,2 +1,2 @@
-i13A6A6A6X3b4b4X29
-cost 79.50 match_score 2.77
+i18A8A8A9x14B8A10B8A10o4
+cost 102.60 match_score 4.49

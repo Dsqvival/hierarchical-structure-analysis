@@ -1,2 +1,2 @@
-i4X8x4X8A4A4o4
+i4A4B4x4A4B4B4B4o4
 cost 45.60 match_score 1.34

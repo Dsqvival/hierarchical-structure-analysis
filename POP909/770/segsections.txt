@@ -1,2 +1,2 @@
-i6X4A13B11A13B11X1B11X2
-cost 56.10 match_score 3.69
+i8A16B16A16B16B16X9
+cost 70.70 match_score 4.80

@@ -1,1 +1,9 @@
 C:min
+Eb:maj
+C:min
+Eb:maj
+C:min
+Eb:maj
+C:min
+Eb:maj
+

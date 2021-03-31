@@ -1,2 +1,0 @@
-X4x4A4A4B4B4x4A4B4B4X4B4B4X1o2
-cost 48.10 match_score 6.89

@@ -1,1 +1,2 @@
 Gb:min
+B:maj

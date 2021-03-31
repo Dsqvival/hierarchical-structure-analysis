@@ -1,1 +1,5 @@
 G:min
+E:min
+G:min
+E:min
+

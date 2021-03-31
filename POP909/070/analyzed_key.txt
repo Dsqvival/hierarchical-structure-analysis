@@ -1,1 +1,5 @@
 Db:maj
+Bb:min
+Db:maj
+Bb:min
+

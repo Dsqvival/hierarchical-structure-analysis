@@ -1,2 +1,0 @@
-i4X4A14x4A14X13o3
-cost 59.60 match_score 1.86

@@ -1,1 +1,4 @@
 Bb:min
+Db:maj
+D:maj
+

@@ -1,2 +1,0 @@
-i12A16A16B14x2b4b4b4A16B14B14x2A15o5
-cost 89.10 match_score 7.57

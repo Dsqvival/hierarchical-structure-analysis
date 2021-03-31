@@ -1,2 +1,0 @@
-i2A12x1A12
-cost 23.50 match_score 1.82

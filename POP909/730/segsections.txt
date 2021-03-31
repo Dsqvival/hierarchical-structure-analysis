@@ -1,2 +1,0 @@
-i4A16x2A16x4A16o2
-cost 43.40 match_score 2.90

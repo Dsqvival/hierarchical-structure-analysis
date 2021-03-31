@@ -1,1 +1,6 @@
 Eb:min
+Gb:maj
+Eb:min
+Gb:maj
+Eb:min
+

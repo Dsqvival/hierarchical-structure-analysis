@@ -1,2 +1,0 @@
-i12A4A4B12x8A4A4B12X19
-cost 80.50 match_score 4.86

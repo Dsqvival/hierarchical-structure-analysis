@@ -1,2 +1,0 @@
-i8A16B8B8X3A16B8X3C8C8o5
-cost 89.70 match_score 4.68

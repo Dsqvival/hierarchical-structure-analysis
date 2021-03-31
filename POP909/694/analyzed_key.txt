@@ -1,1 +1,3 @@
 C:maj
+D:maj
+

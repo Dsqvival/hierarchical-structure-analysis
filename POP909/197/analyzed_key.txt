@@ -1,1 +1,2 @@
 C:maj
+C:min

@@ -1,1 +1,5 @@
 E:min
+A:maj
+E:min
+A:maj
+

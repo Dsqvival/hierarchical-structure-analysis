@@ -1,1 +1,5 @@
 E:maj
+C#:min
+E:maj
+C#:min
+

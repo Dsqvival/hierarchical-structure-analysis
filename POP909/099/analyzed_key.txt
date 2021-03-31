@@ -1,1 +1,8 @@
 C:maj
+A:min
+D:maj
+C:maj
+A:min
+D:maj
+Eb:maj
+

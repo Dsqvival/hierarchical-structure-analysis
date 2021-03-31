@@ -1,1 +1,7 @@
 G:min
+Bb:maj
+G:min
+Bb:maj
+G:min
+Bb:maj
+

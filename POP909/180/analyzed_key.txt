@@ -1,1 +1,8 @@
 G#:min
+Ab:maj
+F:min
+G#:min
+Ab:maj
+F:min
+A:maj
+

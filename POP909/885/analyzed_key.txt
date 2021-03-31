@@ -1,1 +1,2 @@
-C:min
+G:maj
+Ab:maj

@@ -1,2 +1,4 @@
-# hierarchical-structure-analysis
-Algorithm and Data for paper "Automatic Detection of Hierarchical Structure and Influence of Structure on Melody, Harmony and Rhythm in Popular Music"
+Code and dataset for paper: Automatic Analysis and Influence of Hierarchical Structure on Melody, Rhythm and Harmony in Popular Music 
+
+https://www.cs.cmu.edu/~rbd/papers/dai-mume2020.pdf
+

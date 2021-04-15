@@ -2,7 +2,7 @@
 This is the code for the phrase-level analysis of the paper: Automatic Analysis and Influence of Hierarchical Structure on Melody, Rhythm and Harmony in Popular Music 
 https://www.cs.cmu.edu/~rbd/papers/dai-mume2020.pdf
 
-Input: Preprocessing results of a midi song from preprocess.sh, including melody.txt, finalized_chord.txt, analyzed_key.txt, time signature
+Input: Preprocessing results of a midi song from preprocessing.sh, including melody.txt, finalized_chord.txt, analyzed_key.txt, time signature
 Output: Phrase-level structure analysis result
 
 Notice that it is an approximate version, if you want to run the full version, turn off the timing code at line 1822

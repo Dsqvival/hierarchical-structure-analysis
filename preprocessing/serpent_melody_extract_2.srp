@@ -1,0 +1,137 @@
+require "debug"
+require "allegro"
+require "mfread"
+
+def warning(msg)
+    print "*** "; msg
+
+# midi_file_path = wxs_file_selector("Open a Standard MIDI File", 
+#                          "", "", ".mid", "*.mid", WXS_FILE_OPEN, 0)
+# print "Opening", midi_file_path
+
+# file_dir = "POP909/"
+# file_dir = "../../lmd_melody_track/"
+# piece = "001"
+# piece_dir = file_dir + piece
+# midi_file_path = piece_dir + "/" + piece + ".mid"
+
+# seq = allegro_smf_read(midi_file_path)
+# if not seq
+#     print "Could not read", midi_file_path
+#     exit()
+
+# convert seq times to beats
+# seq.convert_to_beats()
+# to get seconds: 
+# seq.convert_to_seconds()
+
+# print the notes in seq
+def show_note(note)
+    print "dur: "; note.dur; " time: "; note.time; " chan: "; note.chan; 
+    print " keyno: "; note.key; " vel: "; note.loud
+
+# for track at tr in seq.tracks
+#     print "TRACK", tr
+#     for note in track
+#         if isinstance(note, Alg_note)
+#             show_note(note)
+
+
+
+def ceil(x):
+    if int(x) < x
+        return int(x) + 1
+    return x
+
+def get_file_path_idx(name):
+    for i = len(name)-1 to 0 by -1
+        if name[i] == "/"
+            return i+1
+
+def save_melody(file_name):
+    file_path = subseq(file_name, 0, get_file_path_idx(file_name))
+
+    midi_file_path = subseq(file_name, 0, len(file_name)-4) + "_shift.mid"
+
+    seq = allegro_smf_read(midi_file_path)
+    if not seq
+        print "Could not read", midi_file_path
+        exit()
+
+    # convert seq times to beats
+    seq.convert_to_beats()
+
+    f = open(file_path + "/begin_time.txt", "r")
+    begin_beats = int(f.read(500))
+    f.close()
+
+    # beat is 1-indexed, and the prev_time is the first sixteenth note
+    prev_time = 0
+    prev_dur = 0
+    flag = 0
+
+    f = open(file_path + "/melody.txt", "w")
+    for note at idx in seq.tracks[1]
+        if isinstance(note, Alg_note)
+            # write the gap between this and previous note
+            dur = (note.time - prev_time)
+            dur_in16 = dur / 0.25
+            gap_in16 = dur_in16 - prev_dur
+            pitch = "0"
+            if flag == 0:
+                # display note.time
+                # display gap_in16
+                gap_in16 = gap_in16 - 4 * begin_beats
+                # sometimes there will be small offset error, we just
+                # need to make sure that most melody start on beat / eighth
+                gap_in16 = 2 * round(gap_in16/2)
+                # display gap_in16
+                flag = flag + 1
+            if gap_in16 >= 1:
+                gap_in16 = round(gap_in16)
+                f.write(pitch + " " + str(gap_in16) + "\n")
+
+            # write this note 
+            dur_in16 = max(round(note.dur / 0.25), 1) 
+
+            # if this note overlaps the next note... 
+            i = 0
+            flag = true
+            next_note = nil
+            while not isinstance(next_note, Alg_note) and flag:
+                i = i + 1
+                if idx + i != len(seq.tracks[1]):
+                    next_note = seq.tracks[1][idx+i]
+                else:
+                    flag = false
+            
+            if next_note and isinstance(next_note, Alg_note):
+                next_gap_in16 = round((next_note.time - note.time) * 4)
+                dur_in16 = min(dur_in16, next_gap_in16)
+                # if dur_in16 == 0:
+                #     display note.key
+                #     display next_note.time
+                #     display next_note.key
+
+            pitch = str(note.key)
+            f.write(pitch + " " + str(dur_in16) + "\n")
+            prev_time = note.time
+            prev_dur = dur_in16
+    f.close()
+
+
+def run_all():
+    data_dir = "../../lmd_melody_track"
+    # data_dir = "POP909"
+    for i = 1 to 8850:
+        filename = str(i)
+        print(filename + " ...")
+        # get_correspondance(filename)
+        save_melody(filename)
+        print(filename + " done")
+
+file_name = command_line_arguments[1]
+save_melody(file_name)
+
+
+exit()

@@ -1,0 +1,6 @@
+pydub>=0.23.1
+pretty_midi>=0.2.9
+joblib>=0.13.2
+librosa>=0.7.2
+mir_eval>=0.5
+numpy>=1.16

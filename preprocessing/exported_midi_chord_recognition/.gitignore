@@ -1,0 +1,6 @@
+/cache_data
+/temp
+/.idea
+/__pycache__
+*.pyc
+/output

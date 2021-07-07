@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sonic-visualiser>
+<sv>
+  <data>
+    <model id="0" name="" sampleRate="[__SR__]" type="sparse" dimensions="2" resolution="1" notifyOnAdd="false" dataset="0" units="Hz" minimum="[__FMIN__]" maximum="[__FMAX__]"/>
+    <model id="1" name="" sampleRate="[__SR__]" type="sparse" dimensions="2" resolution="1" notifyOnAdd="false" dataset="1"/>
+    <dataset id="0" dimensions="2">
+      [__DATA_FREQ__]
+    </dataset>
+    <dataset id="1" dimensions="2">
+      [__DATA_ENERGY__]
+    </dataset>
+  </data>
+  <display>
+    <layer id="0" type="timevalues" name="Frequency" model="0"  colourMap="0" plotStyle="2" verticalScale="2" scaleMinimum="0" scaleMaximum="0" drawDivisions="true" derivative="false"  colourName="Bright Green" colour="#00ff7f" darkBackground="false" />
+    <layer id="1" type="timevalues" name="Energy" model="1"  colourMap="0" plotStyle="1" verticalScale="1" scaleMinimum="0" scaleMaximum="0" drawDivisions="true" derivative="false"  colourName="Red" colour="#c30000" darkBackground="false" />
+  </display>
+</sv>

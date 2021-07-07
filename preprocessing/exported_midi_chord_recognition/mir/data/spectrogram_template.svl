@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sonic-visualiser>
+<sv>
+  <data>
+    <model id="0" name="Spectrogram" sampleRate="[__SR__]" type="dense" dimensions="3" windowSize="[__WIN_SHIFT__]" yBinCount="[__SHAPE_1__]" dataset="0"/>
+    <dataset id="0" dimensions="3" separator=" ">
+      [__DATA__]
+    </dataset>
+  </data>
+  <display>
+    <layer id="0" type="colour3dplot" name="Spectrogram (Display)" model="0"  scale="0" colourScheme="[__COLOR__]" minY="0" maxY="0" invertVertical="false" opaque="false" binScale="0" smooth="false" gain="1" columnNormalization="none" normalizeColumns="false" normalizeVisibleArea="false" />
+  </display>
+</sv>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5eb15730-961f-4841-b289-fe2103380737" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/mir/legacy/chord.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/legacy/extractors/vamp_extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/legacy/io/implement/beat_io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/legacy/io/implement/chord_io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/legacy/io/implement/chordogram_io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/legacy/io/implement/key_io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/legacy/io/implement/pitch_gram_io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/legacy/io/implement/pitch_io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/legacy/nn/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/legacy/nn/data_decorator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/legacy/nn/data_provider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/legacy/nn/data_storage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/legacy/nn/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/legacy/tonalty.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/nn/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/nn/data_decorator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/nn/data_provider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/nn/data_storage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/nn/special/tempo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mir/nn/train.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mir" />
+  </component>
+  <component name="ProjectId" id="1fQcv5bC9Tw9PgDszbm8oNHKea9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workplace\exported_midi_chord_recognition\exported_midi_chord_recognition" />
+      <recent name="D:\workplace\exported_midi_chord_recognition\exported_midi_chord_recognition\extractors" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5eb15730-961f-4841-b289-fe2103380737" name="Default Changelist" comment="" />
+      <created>1596153984260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596153984260</updated>
+      <workItem from="1596153987778" duration="1129000" />
+      <workItem from="1596170410428" duration="609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

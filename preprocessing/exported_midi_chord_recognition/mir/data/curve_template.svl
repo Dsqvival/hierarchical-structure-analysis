@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sonic-visualiser>
+<sv>
+  <data>
+    <model id="0" name="" sampleRate="[__SR__]" type="sparse" dimensions="2" resolution="1" notifyOnAdd="false" dataset="0" units=""/>
+    <dataset id="0" dimensions="2">
+      [__DATA__]
+    </dataset>
+  </data>
+  <display>
+    <layer id="0" type="timevalues" name="[__NAME__]" model="0"  colourMap="0" plotStyle="2" verticalScale="0" scaleMinimum="0" scaleMaximum="0" drawDivisions="true" derivative="false"  colourName="Bright Green" colour="#00ff7f" darkBackground="false" />
+  </display>
+</sv>

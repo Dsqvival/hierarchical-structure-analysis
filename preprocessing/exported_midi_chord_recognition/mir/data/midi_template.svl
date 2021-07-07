@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sonic-visualiser>
+<sv>
+  <data>
+    <model id="0" name="Midi layer" sampleRate="[__SR__]" type="sparse" dimensions="3" resolution="1" notifyOnAdd="true" dataset="0"  subtype="note" valueQuantization="1" units="MIDI units"/>
+    <dataset id="0" dimensions="3">
+      [__DATA__]
+    </dataset>
+  </data>
+  <display>
+    <layer id="0" type="notes" name="Midi layer (display)" model="0"  verticalScale="0" scaleMinimum="0" scaleMaximum="0"  colourName="Green" colour="#008000" darkBackground="false" />
+  </display>
+</sv>

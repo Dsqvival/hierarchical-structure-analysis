@@ -1,0 +1,34 @@
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix vamp:     <http://purl.org/ontology/vamp/> .
+@prefix :         <#> .
+
+:transform a vamp:Transform ;
+    vamp:plugin <http://vamp-plugins.org/rdf/plugins/nnls-chroma#nnls-chroma> ;
+    vamp:step_size "[__WIN_SHIFT__]"^^xsd:int ;
+    vamp:block_size "[__WIN_SIZE__]"^^xsd:int ;
+    vamp:plugin_version """5""" ; 
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "chromanormalize" ] ;
+        vamp:value "0"^^xsd:float ;
+    ] ;
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "rollon" ] ;
+        vamp:value "0"^^xsd:float ;
+    ] ;
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "s" ] ;
+        vamp:value "0.7"^^xsd:float ;
+    ] ;
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "tuningmode" ] ;
+        vamp:value "0"^^xsd:float ;
+    ] ;
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "useNNLS" ] ;
+        vamp:value "1"^^xsd:float ;
+    ] ;
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "whitening" ] ;
+        vamp:value "1"^^xsd:float ;
+    ] ;
+    vamp:output [ vamp:identifier "bothchroma" ] .

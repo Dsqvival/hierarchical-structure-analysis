@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sonic-visualiser>
+<sv>
+  <data>
+    <model id="0" name="sparse_tag" sampleRate="[__SR__]" type="sparse" dimensions="1" resolution="1" notifyOnAdd="true" dataset="0" />
+    <dataset id="0" dimensions="1">
+      [__DATA__]
+    </dataset>
+  </data>
+  <display>
+    <layer id="0" type="timeinstants" name="sparse_tag (timeinstants)" model="0"  plotStyle="[__STYLE__]" colourName="Green" colour="#008000" darkBackground="false" />
+  </display>
+</sv>

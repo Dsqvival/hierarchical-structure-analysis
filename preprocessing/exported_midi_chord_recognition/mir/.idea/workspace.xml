@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52b1b071-c996-4f05-be4f-fcaf9598719d" name="Default" comment="Important bug fix (including randomization issue in torch training)" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mir" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WxNn0jxE21AtEULcs8wAQNzIs1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/jjy3/AppData/Local/Programs/Python/Python36/Lib/mir/requirements.txt" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jjy3\AppData\Local\Programs\Python\Python36\Lib\mir\legacy\io\implement" />
+      <recent name="C:\Users\jjy3\AppData\Local\Programs\Python\Python36\Lib\mir\legacy" />
+      <recent name="C:\Users\jjy\AppData\Local\Programs\Python\Python35\Lib\mir\data" />
+      <recent name="C:\Users\jjy\AppData\Local\Programs\Python\Python35\Lib\mir\io\implement" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jjy\AppData\Local\Programs\Python\Python35\Lib\mir\data" />
+      <recent name="C:\Users\jjy\AppData\Local\Programs\Python\Python35\Lib\mir" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="mir" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52b1b071-c996-4f05-be4f-fcaf9598719d" name="Default" comment="" />
+      <created>1520852567261</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520852567261</updated>
+      <workItem from="1580087450437" duration="3624000" />
+      <workItem from="1584831799091" duration="6765000" />
+      <workItem from="1587236622713" duration="3011000" />
+    </task>
+    <task id="LOCAL-00001" summary="Important bug fix (including randomization issue in torch training)">
+      <created>1584832575286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584832575287</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_in_nn_dataset_testcase_py - 2018.07.23 at 19h 49m 17s.xml">
+      <configuration name="Nosetests in nn_dataset_testcase.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Important bug fix (including randomization issue in torch training)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Important bug fix (including randomization issue in torch training)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="529" y="110" key="CommitChangelistDialog2" timestamp="1584832609819">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="529" y="110" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584832609819" />
+    <state x="92" y="92" width="1736" height="860" key="DiffContextDialog" timestamp="1584905849520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="860" key="DiffContextDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584905849520" />
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1587236624214">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="647" height="534" key="find.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1587236624214" />
+  </component>
+</project>

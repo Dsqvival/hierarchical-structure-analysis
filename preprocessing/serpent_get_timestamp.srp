@@ -22,25 +22,31 @@ if not seq
 
 # convert seq times to sec
 seq.convert_to_seconds()
-
-timestamps_1 = []
-
-for note in seq.tracks[3]
-    if isinstance(note, Alg_note)
-        timestamps_1.append(note.time) 
+times = []
+for track at tr in seq.tracks
+    for note in track
+        if isinstance(note, Alg_note)
+            times.append(note.time) 
 
 # convert seq times to beats
 seq.convert_to_beats()
+beats = []
+for track at tr in seq.tracks
+    for note in track
+        if isinstance(note, Alg_note)
+            beats.append(note.time) 
 
-timestamps_2 = []
+timestamps = []
+for t at idx in times:
+    timestamps.append([t, beats[idx]])
 
-for note at idx in seq.tracks[3]
-    if isinstance(note, Alg_note)
-        timestamps_2.append(note.time) 
+def time_increase(a, b):
+    return a[0] > b[0]
+timestamps.sort('time_increase')
 
 f = open(strcat(file_path, "timestamps.txt"), "w")
-for x at idx in timestamps_1
-    f.write(str(x) + " " + str(timestamps_2[idx]) + "\n")
+for x in timestamps
+    f.write(str(x[0]) + " " + str(x[1]) + "\n")
 f.close()
 
 # each tuple contains a correspondance [seconds, beats]
